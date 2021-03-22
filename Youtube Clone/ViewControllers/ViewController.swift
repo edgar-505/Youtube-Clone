@@ -58,11 +58,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
         }
 
-//        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
-//
-//        let detailVC = segue.destination as! DetailViewController
-//
-//        detailVC.video = selectedVideo
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+
+        let detailVC = segue.destination as! DetailViewController
+
+        detailVC.video = selectedVideo
     }
     
 }

@@ -48,7 +48,7 @@ class Model {
                     }
                 }
                 
-                dump(response)
+                
             }
             catch{
             }
